@@ -11,5 +11,6 @@ Then you need to run the following command in new terminal tab to create a super
 (project_restapi_drf_1 is  container name restapi)
 
 docker-compose version 1.25.5
+
 Docker version 19.03.8
 
