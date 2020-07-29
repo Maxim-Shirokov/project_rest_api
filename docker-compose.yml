@@ -8,9 +8,11 @@ services:
       POSTGRES_PASSWORD: 123
       POSTGRES_USER: postgres
       POSTGRES_DB: posgtres
-  drf:
+  web:
     build: .
-    command: bash -c "python /usr/src/project_restapi/manage.py migrate &&
+    command: bash -c "sleep 7 &&
+             python /usr/src/project_restapi/manage.py makemigrations &&
+             python /usr/src/project_restapi/manage.py migrate &&
              python /usr/src/project_restapi/manage.py runserver 0.0.0.0:8000"
     volumes:
       - .:/usr/src/project_restapi

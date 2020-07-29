@@ -77,16 +77,6 @@ WSGI_APPLICATION = 'project_restapi.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'rest_api',
-#         'USER': 'postgres',
-#         'PASSWORD': 123,
-#         'HOST': 'localhost',
-#         'PORT': 5432,
-#     }
-# }
 
 DATABASES = {
     'default': {
