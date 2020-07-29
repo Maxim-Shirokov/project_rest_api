@@ -8,9 +8,10 @@ You need to run the following command to deploy rest_api
 
 Then you need to run the following command in new terminal tab to create a superuser
  
-`docker exec -it project_restapi_drf_1 python manage.py createsuperuser`
+`docker exec -it <CONTAINER NAME RESTAPI> python manage.py createsuperuser`
 
-(project_restapi_drf_1 is  container name restapi)
+(project_restapi_drf_1 it's an  example container name)
+
 
 docker-compose version 1.25.5
 
