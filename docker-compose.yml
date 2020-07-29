@@ -16,6 +16,9 @@ services:
              python /usr/src/project_restapi/manage.py runserver 0.0.0.0:8000"
     volumes:
       - .:/usr/src/project_restapi
+    environment:
+      - SECRET_KEY=mysecretkey
+      - API_SECRET=1234
     ports:
       - 8000:8000
     depends_on:
