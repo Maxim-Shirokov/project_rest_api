@@ -1,9 +1,11 @@
 **Deploy rest_api**
+
 You need to run the following command to deploy rest_api
 
 `docker-compose -f <PROJECT_PATH>/docker-compose.yml up`
 
 **Admin**
+
 Then you need to run the following command in new terminal tab to create a superuser
  
 `docker exec -it project_restapi_drf_1 python manage.py createsuperuser`
