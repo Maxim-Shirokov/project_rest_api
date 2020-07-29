@@ -12,6 +12,7 @@ Then you need to run the following command in new terminal tab to create a super
 
 (project_restapi_drf_1 it's an  example container name)
 
+**Versions**
 
 docker-compose version 1.25.5
 
