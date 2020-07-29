@@ -1,6 +1,5 @@
 You need to run the following commands to deploy rest_api
 
-`docker-compose -f <PROJECT_PATH>/docker-compose.yml build`
 
 `docker-compose -f <PROJECT_PATH>/docker-compose.yml up`
 
